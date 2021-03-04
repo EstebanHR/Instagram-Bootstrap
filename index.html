@@ -4,57 +4,174 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    
     <!--Fontawesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    
     <!--Googlefont-->
     <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-
     <title>Hello, world!</title>
   </head>
   <body>
       <div class="container">
-          
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <h2 class="logo"> Instagram</h2> 
+    <h2 class="logo"> <i class="fab fa-instagram"></i>Instagram</h2> 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-      
-      <form class="d-flex">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fas fa-cog"></i>
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-    
-      </ul>
-    </form>
+ <div class="dropdown ml-auto">
+  <button type="button" class="btn btn-secondary bg-success ml-auto" data-toggle="modal" data-target="#Modal">
+Create a new post
+</button>
+ <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+ <i class="fas fa-cog" ></i>
+ </button>
+ <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+     <a class="dropdown-item" href="#">Action</a>
+     <a class="dropdown-item" href="#">Another action</a>
+     <a class="dropdown-item" href="#">Something else here</a>
+     <a class="dropdown-item border-top" href="#">Logout</a>
+ </div>
+</div>
   </div>
 </nav>
+    <nav class="nav nav-pills justify-content-center">
+        <a class=" nav-item nav-link active " href="#threecolumn" data-toggle="tab"><i class="fa fa-th"
+                aria-hidden="true"></i></a>
+        <a class="nav-item nav-link" href="#onecolumn" data-toggle="tab"><i class="fa fa-square"
+                aria-hidden="true"></i></a> 
+    </nav>
+<div class="tab-content mt-3 ">
+        <div id="threecolumn" class="row no-pad tab-pane active ">
+            <!-- <h1>3 column</h1> -->
+            <div class="container">
+              <div class="row row-cols-3">
+                <div class="col mb-1 px-0 ps-1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkgXWUMr_Vcw6KhaHLTy0SNSljgWrMIi5rFQ&usqp=CAU" width="100%"
+                    height="100%" alt=""></div>
+                <div class="col mb-1 pe-0 ps-1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzr0R9ziCVWDGq7tD8jO-FhKrY_KxfqpxW1g&usqp=CAU" width="100%"
+                    height="100%" alt=""></div>
+                <div class="col mb-1 pe-0 ps-1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSu5RVwzc8LFlzQ3hbeeGM2JSLw47uwgWaAg&usqp=CAU" width="100%"
+                    height="100%" alt=""></div>
+                <div class="col mb-1 pe-0 ps-1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeiL73XGvpAAuBFKEbedYRnT--o-bZd9h3fw&usqp=CAU" width="100%"
+                    height="100%" alt=""></div>
+                <div class="col mb-1 pe-0 ps-1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq-UOwf0MszYnlxDNlQ6Xobbc91BJOKtD6ng&usqp=CAU" width="100%"
+                    height="100%" alt=""></div>
+                <div class="col mb-1 pe-0 ps-1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqVXglCrfVQ49UGqSKU9vxn5UXrFJ0YtYajw&usqp=CAU" width="100%"
+                    height="100%" alt=""></div>
+                <div class="col mb-1 pe-0 ps-1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUXyPJc5n-NFZgnUKmj7GURtvrJAylTJnIEw&usqp=CAU" width="100%"
+                    height="100%" alt=""></div>
+                <div class="col mb-1 pe-0 ps-1"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzz-fbhvJGEo9QA5whAHFwZvBg4WMbG0yASg&usqp=CAU" width="100%"
+                    height="100%" alt=""></div>
+                <div class="col mb-1 pe-0 ps-1"><img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8aHVtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80" width="100%"
+                    height="100%" alt=""></div>
+              </div>
+            </div>
+        </div>
+        <div id="onecolumn" class="row no-pad tab-pane  ">
+          <div class="container bg-secondary">
+          <div class=" bg-white mx-auto border-0 my-4" style="max-width:600px;">
+            <div class="row mx-0 p-1">
+              <p class="text-start " style="width: 200px;"><strong>My first photo</strong></p> 
+              <p class="ml-auto text-end " style="width: 390px;"><strong>12/14</strong></p>
+            </div>
+            <img src="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59bbb29c5bafe878503c9872/husky-siberiano-bosque.jpg" class="img-fluid" alt="Responsive image">
+            <div class="card-body p-1">
+                <h5 class="card-title m-0 pb-2 "><strong>23 likes</strong></h5>
+                <p class="card-text m-0 pb-2">This is my first photo of the feed. this is a multi line comment for testing purposes. I am learning to code with
+                  <strong>#BreatheCode</strong></p>
+                <div class="row pr-3 mb-2">
+                  <i class="far fa-heart col-1 py-2"></i>
+                  <input class=" ml-auto col-8 border-0" type="text" placeholder="Comment...">
+                </div>
+            </div>
+        </div>
+        <div class=" bg-white mx-auto border-0 my-4" style="max-width:600px;">
+          <div class="row mx-0 p-1">
+            <p class="text-start " style="width: 200px;"><strong>My first photo</strong></p> 
+            <p class="ml-auto text-end " style="width: 390px;"><strong>12/14</strong></p>
+          </div>
+          <img src="https://ggsc.s3.amazonaws.com/images/uploads/The_Science-Backed_Benefits_of_Being_a_Dog_Owner.jpg" class="img-fluid" alt="Responsive image">
+          <div class="card-body p-1">
+              <h5 class="card-title m-0 pb-2 "><strong>100 likes</strong></h5>
+              <p class="card-text m-0 pb-2">This is my first photo of the feed. this is a multi line comment for testing purposes. I am learning to code with
+                <strong>#BreatheCode</strong></p>
+              <div class="row pr-3 mb-2">
+                <i class="far fa-heart col-1 py-2"></i>
+                <input class=" ml-auto col-8 border-0" type="text" placeholder="Comment...">
+              </div>
+          </div>
       </div>
-    
-
-
+      <div class=" bg-white mx-auto border-0 my-4" style="max-width:600px;">
+        <div class="row mx-0 p-1">
+          <p class="text-start " style="width: 200px;"><strong>My first photo</strong></p> 
+          <p class="ml-auto text-end " style="width: 390px;"><strong>12/14</strong></p>
+        </div>
+        <img src="https://scx2.b-cdn.net/gfx/news/hires/2020/dog.jpg" class="img-fluid" alt="Responsive image">
+        <div class="card-body p-1">
+            <h5 class="card-title m-0 pb-2 "><strong>23 likes</strong></h5>
+            <p class="card-text m-0 pb-2">This is my first photo of the feed. this is a multi line comment for testing purposes. I am learning to code with
+              <strong>#BreatheCode</strong></p>
+            <div class="row pr-3 mb-2">
+              <i class="far fa-heart col-1 py-2"></i>
+              <input class=" ml-auto col-8 border-0" type="text" placeholder="Comment...">
+            </div>
+        </div>
+    </div>
+    <div class=" bg-white mx-auto border-0 my-4" style="max-width:600px;">
+      <div class="row mx-0 p-1">
+        <p class="text-start " style="width: 200px;"><strong>My first photo</strong></p> 
+        <p class="ml-auto text-end " style="width: 390px;"><strong>12/14</strong></p>
+      </div>
+      <img src="https://www.aaha.org/contentassets/3c00345bcc2d430b9f471734e8417d75/2019-6-6-istock-460588321-osu-mean-dog-blog.jpg" class="img-fluid" alt="Responsive image">
+      <div class="card-body p-1 ">
+          <h5 class="card-title m-0 pb-2 "><strong>500 likes</strong></h5>
+          <p class="card-text m-0 pb-2">This is my first photo of the feed. this is a multi line comment for testing purposes. I am learning to code with
+            <strong>#BreatheCode</strong></p>
+          <div class="row pr-3 mb-2">
+            <i class="far fa-heart col-1 py-2"></i>
+            <input class=" ml-auto col-8 border-0" type="text" placeholder="Comment...">
+          </div>
+      </div>
+  </div>
+          </div>
+        </div>
+    </div>
+<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+      <div class="modal-content">
+      <div class="modal-header">
+          <h5 class="modal-title" id="ModalLabel">Create a new post</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+      </div>
+      <div class="modal-body">
+          <div class="form-group">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <i class="fas fa-camera">   </i>     <i class="fas fa-map-marker-alt"></i>
+      </div>
+      <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary">Publish</button>
+      </div>
+      </div>
+  </div>
+  </div>
+      </div>
     <!-- Optional JavaScript; choose one of the two! -->
-
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
   </body>
 </html>
